@@ -123,7 +123,7 @@
                 <div class="kicker-bar"></div>
                 <span>ELEIÇÕES 2026</span>
                 <span class="kicker-dot">·</span>
-                <span>10 VOTAÇÕES DO CONGRESSO</span>
+                <span>16 VOTAÇÕES DO CONGRESSO</span>
             </div>
 
             <!-- Glass panel com headline + texto + CTAs -->
