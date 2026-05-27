@@ -1,0 +1,102 @@
+@import 'tailwindcss';
+
+/* Design tokens — fiel ao template */
+:root {
+  --white:    #FFFFFF;
+  --paper:    #FAFAF8;
+  --paper-2:  #F4F4ED;
+  --paper-3:  #EEEEE5;
+  --black:    #111310;
+  --ink-2:    #1F1F1A;
+  --ink-3:    #3A3A34;
+  --ink-4:    #4A4A44;
+  --ink-5:    #5A5A50;
+  --muted:    #9C9C94;
+  --border:   #E8E8E2;
+  --border-2: rgba(17,19,16,0.08);
+
+  --green:    #006B38;
+  --green-2:  #00A550;
+  --green-3:  #00C460;
+  --green-d:  rgba(0,107,56,0.08);
+  --green-m:  rgba(0,107,56,0.15);
+
+  --yellow:   #FFD100;
+  --yellow-2: #FFB100;
+  --yellow-d: rgba(255,209,0,0.10);
+  --yellow-m: rgba(255,209,0,0.20);
+
+  --blue:     #002776;
+  --blue-2:   #1850B8;
+  --blue-d:   rgba(0,39,118,0.07);
+
+  --red:      #C8102E;
+  --red-d:    rgba(200,16,46,0.08);
+  --red-m:    rgba(200,16,46,0.15);
+
+  --sans:   'Plus Jakarta Sans', system-ui, sans-serif;
+  --serif:  'Instrument Serif', Georgia, serif;
+  --mono:   'JetBrains Mono', 'Courier New', monospace;
+
+  --ease:   cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; }
+
+html {
+  font-family: var(--sans);
+  background: var(--paper);
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body { min-height: 100svh; overflow-x: hidden; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+
+::selection { background: var(--yellow); color: var(--black); }
+
+*::-webkit-scrollbar { width: 4px; height: 4px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+*::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+button:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+
+/* Animações */
+@keyframes tickerScroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.anim-up   { animation: fadeUp  0.6s var(--ease) both; }
+.anim-in   { animation: fadeIn  0.35s ease both; }
+
+.anim-up-1 { animation: fadeUp 0.6s var(--ease) 50ms both; }
+.anim-up-2 { animation: fadeUp 0.6s var(--ease) 150ms both; }
+.anim-up-3 { animation: fadeUp 0.6s var(--ease) 280ms both; }
+.anim-up-4 { animation: fadeUp 0.6s var(--ease) 400ms both; }
+.anim-up-5 { animation: fadeUp 0.6s var(--ease) 500ms both; }
+.anim-up-6 { animation: fadeUp 0.6s var(--ease) 600ms both; }

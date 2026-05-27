@@ -1,0 +1,15 @@
+{
+	"/": [
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/quiz": [
+		"src/routes/+layout.ts"
+	],
+	"/resultado": [
+		"src/routes/+layout.ts"
+	],
+	"/sobre": [
+		"src/routes/+layout.ts"
+	]
+}
