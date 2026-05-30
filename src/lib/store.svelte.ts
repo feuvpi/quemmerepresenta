@@ -21,32 +21,32 @@ export const VOTACOES = [
     id: 2,
     tema: "MEIO AMBIENTE",
     temaColor: "#006B38",
-    tipo: "PL 2.159/2021",
+    tipo: "PL 2.159/2021 (Lei nº 15.190/2025)",
     ano: "2025",
-    titulo: "Licenciamento Ambiental Flexibilizado",
+    titulo: "Lei Geral do Licenciamento Ambiental",
     descricao:
-      "Flexibiliza regras de licenciamento ambiental, dispensando estudos técnicos completos mesmo para obras de grande impacto ambiental.",
+      "Estabelece a Lei Geral do Licenciamento Ambiental. Sancionada em agosto de 2025 pelo Executivo com vetos que limitavam os impactos de degradação, a lei teve 52 de seus vetos derrubados pelo Congresso Nacional em novembro de 2025, restaurando a flexibilização original ampla (como a Licença por Adesão e Compromisso - LAC e dispensa de amparo consultivo vinculante).",
     proArgs:
-      "Mais agilidade para obras de infraestrutura e desenvolvimento econômico do país.",
+      "Traz modernização, desburocratização e celeridade para obras de infraestrutura urgentes, conferindo autonomia a estados e municípios e trazendo segurança jurídica para o setor produtivo.",
     conArgs:
-      "Retrocesso ambiental que permite devastação sem avaliação adequada de impactos.",
-    resultado: "APROVADO",
-    fonte: "https://www.camara.leg.br",
+      "A restauração dos trechos vetados enfraquece o rigor dos estudos de impacto e a proteção a biomas sensíveis, limitando a consulta prévia a órgãos de proteção de terras indígenas e unidades de conservação.",
+    resultado: "VETOS PRESIDENCIAIS DERRUBADOS",
+    fonte: "https://www12.senado.leg.br",
   },
   {
     id: 3,
     tema: "MEIO AMBIENTE",
     temaColor: "#006B38",
-    tipo: "Rejeição de MP",
+    tipo: "PL 2.564/2025",
     ano: "2026",
-    titulo: "Proibição ao IBAMA de Destruir Máquinas de Garimpo Ilegal",
+    titulo: "Restrições à Fiscalização Ambiental (Satélite e Maquinário)",
     descricao:
-      "Derrubou medida que autorizava o IBAMA a destruir equipamentos usados em garimpos ilegais dentro de Terras Indígenas e áreas protegidas da Amazônia.",
+      "Proposta aprovada na Câmara dos Deputados em maio de 2026 que exige notificação prévia ao produtor antes de embargos por imagens de satélite (detecção remota) e proíbe terminantemente a destruição imediata de tratores e maquinários apreendidos por órgãos como o IBAMA.",
     proArgs:
-      "Destruição de bens sem processo judicial viola o devido processo legal e é inconstitucional.",
+      "Assegura o direito constitucional à ampla defesa e ao devido processo legal, impedindo a destruição de bens privados e punições automáticas sem fiscalização presencial.",
     conArgs:
-      "Protege o garimpo ilegal que devasta Terras Indígenas e contamina rios com mercúrio.",
-    resultado: "APROVADO",
+      "Retira a ferramenta mais ágil e eficaz contra o garimpo ilegal em áreas remotas e burocratiza a interrupção de desmatamentos em tempo real ao exigir notificações prévias em campo.",
+    resultado: "APROVADO NA CÂMARA",
     fonte: "https://www.camara.leg.br",
   },
   {
@@ -93,7 +93,7 @@ export const VOTACOES = [
     descricao:
       "Tributa rendimentos de brasileiros em paraísos fiscais e fundos de investimento exclusivos de grandes fortunas, antes completamente isentos.",
     proArgs:
-      "Justiça fiscal: quem tem mais deve contribuir proporcionalmente com o Estado.",
+      "Justiça fiscal: quem tem mais deve contribuir proporcionalmente com o State.",
     conArgs: "Risco de fuga de capitais e desinvestimento no Brasil.",
     resultado: "APROVADO",
     fonte: "https://www.camara.leg.br/noticias/1014756",
@@ -102,17 +102,17 @@ export const VOTACOES = [
     id: 7,
     tema: "ECONOMIA",
     temaColor: "#002776",
-    tipo: "PL 1.847/2024",
+    tipo: "PEC 45/2024 (EC 135)",
     ano: "2024",
-    titulo: "Pacote Fiscal — Corte de Gastos",
+    titulo: "PEC do Corte de Gastos e Supersalários",
     descricao:
-      "Congela reajustes de servidores, limita crescimento de despesas federais e endurece regras para concessão de benefícios sociais.",
+      "Promulgada como Emenda Constitucional 135, limita os supersalários no serviço público ao teto constitucional de R$ 44 mil, restringe temporariamente os reajustes do abono salarial (PIS/Pasep), altera o acesso ao BPC e estende a DRU para blindar as metas do arcabouço fiscal.",
     proArgs:
-      "Responsabilidade fiscal e controle da dívida pública em momento de pressão nos mercados.",
+      "Contém o avanço de despesas obrigatórias, combate privilégios no funcionalismo e garante a responsabilidade fiscal e a sustentabilidade do arcabouço em períodos de déficit.",
     conArgs:
-      "Corte de gastos sociais e congelamento de salários do funcionalismo público.",
+      "Pode asfixiar o orçamento de programas sociais essenciais e flexibiliza receitas que deveriam ser carimbadas para áreas prioritárias, afetando direitos de populações vulneráveis.",
     resultado: "APROVADO",
-    fonte: "https://agencia.camara.leg.br/assunto/pl-18472024",
+    fonte: "https://www.camara.leg.br",
   },
 
   // ── DEMOCRACIA / POLÍTICA ─────────────────────────────────────────────────
@@ -120,33 +120,33 @@ export const VOTACOES = [
     id: 8,
     tema: "DEMOCRACIA",
     temaColor: "#002776",
-    tipo: "LDO 2024",
-    ano: "2023",
-    titulo: "Reajuste de 41% no Salário dos Parlamentares",
+    tipo: "PDL 172/2022",
+    ano: "2022",
+    titulo: "Reajuste de Escalonado no Salário dos Parlamentares",
     descricao:
-      "O Congresso aprovou emenda ao orçamento elevando o salário dos deputados e senadores de R$33,7 mil para R$46,3 mil — aumento de 41% aprovado pelos próprios beneficiados.",
+      "O Congresso aprovou decreto legislativo elevando de forma escalonada os subsídios de deputados e senadores até atingir R$ 46,3 mil, votado pelos próprios beneficiários.",
     proArgs:
-      "Reposição de perdas inflacionárias acumuladas e equiparação ao Executivo e Judiciário.",
+      "Reposição de perdas inflacionárias acumuladas desde 2014 e equiparação às carreiras do teto do funcionalismo público.",
     conArgs:
-      "Aumento obsceno em momento de austeridade, aprovado sem debate público pelos próprios beneficiados.",
+      "Aumento em momento de forte restrição orçamentária nacional e aprovado em rito acelerado.",
     resultado: "APROVADO",
-    fonte: "https://www.camara.leg.br/noticias/985082",
+    fonte: "https://www.camara.leg.br",
   },
   {
     id: 9,
     tema: "DEMOCRACIA",
     temaColor: "#002776",
-    tipo: "PL 3.640/2023",
-    ano: "2025",
+    tipo: "PEC 8/2021",
+    ano: "2023",
     titulo: "Restrição a Decisões Monocráticas do STF",
     descricao:
-      "Limita o poder de ministros do STF de tomar decisões individuais que afetam todo o país, exigindo referendo do plenário do Tribunal.",
+      "Limita o poder de ministros do STF de tomar decisões individuais que suspendam a eficácia de leis ou atos dos presidentes dos demais poderes.",
     proArgs:
-      "Controle do ativismo judicial e reequilíbrio entre os poderes da República.",
+      "Controle do ativismo judicial e reequilíbrio institucional entre o Legislativo e o Judiciário.",
     conArgs:
-      "Interferência indevida do Legislativo no funcionamento do Judiciário.",
+      "Interferência nas prerrogativas internas e na celeridade de respostas do Poder Judiciário.",
     resultado: "APROVADO",
-    fonte: "https://www.gazetadopovo.com.br",
+    fonte: "https://www.senado.leg.br",
   },
   {
     id: 10,
@@ -158,9 +158,9 @@ export const VOTACOES = [
     descricao:
       "Propunha obrigar as urnas eletrônicas a imprimir comprovante físico do voto, depositado em urna separada para possível recontagem.",
     proArgs:
-      "Transparência adicional no processo eleitoral e verificação física dos votos.",
+      "Transparência adicional no processo eleitoral e verificação física externa dos votos.",
     conArgs:
-      "Urna eletrônica já é auditável e voto impresso cria riscos à privacidade e à logística.",
+      "O sistema eletrônico já possui múltiplas camadas de auditoria e o voto impresso abre brechas de quebra de sigilo e falhas logísticas.",
     resultado: "REJEITADO",
     fonte: "https://www.camara.leg.br/noticias/798040",
   },
@@ -169,17 +169,16 @@ export const VOTACOES = [
     tema: "DEMOCRACIA",
     temaColor: "#002776",
     tipo: "PL 2.162/2023",
-    ano: "2025",
-    titulo: "Redução de Penas dos Condenados pelo 8 de Janeiro",
+    ano: "2026",
+    titulo: "Redução de Penas / Critérios de Dosimetria",
     descricao:
-      "Altera cálculo de penas para condenados por crimes em manifestações políticas, podendo beneficiar participantes dos ataques golpistas de 8 de janeiro de 2023.",
+      "Altera as regras para o cálculo do concurso de crimes na dosimetria penal. Aprovado pelo Congresso em 2025, foi vetado integralmente pela Presidência em janeiro de 2026, mas teve o veto derrubado pelos parlamentares para virar lei.",
     proArgs:
-      "Proporcionalidade das penas e revisão de julgamentos considerados excessivos.",
+      "Corrige distorções punitivas e garante a aplicação da individualização e proporcionalidade jurídica nas condenações do país.",
     conArgs:
-      "Impunidade para quem atentou contra a democracia e as instituições do Estado.",
-    resultado: "APROVADO",
-    fonte:
-      "https://www12.senado.leg.br/noticias/materias/2025/12/17/senado-aprova-pl-da-dosimetria",
+      "Pode enfraquecer o caráter punitivo do Estado e abrir brecha para revisões que beneficiem atos de ataque ao Estado Democrático de Direito.",
+    resultado: "VETO PRESIDENCIAL DERRUBADO",
+    fonte: "https://www12.senado.leg.br",
   },
 
   // ── DIREITOS SOCIAIS ─────────────────────────────────────────────────────────
@@ -188,14 +187,15 @@ export const VOTACOES = [
     tema: "DIREITOS",
     temaColor: "#C8102E",
     tipo: "PL 1.904/2023",
-    ano: "2023",
-    titulo: "Equiparação de Aborto a Homicídio após 22 Semanas",
+    ano: "2024",
+    titulo: "Regime de Urgência para o PL do Aborto",
     descricao:
-      "Estabelece pena de até 20 anos para abortos realizados após 22 semanas, inclusive em casos de estupro previstos em lei.",
-    proArgs: "Protege a vida do feto em estágio avançado de desenvolvimento.",
+      "Votação do regime de urgência para o projeto que equipara o aborto realizado após 22 semanas de gestação ao crime de homicídio simples, inclusive nos casos de gravidez resultante de estupro. A aprovação da urgência permitiu que a proposta pulasse a análise detalhada nas comissões temáticas para ir direto ao Plenário.",
+    proArgs:
+      "Acelera a tramitação para garantir a proteção jurídica imediata e o direito à vida do feto em estágio avançado de viabilidade.",
     conArgs:
-      "Penaliza vítimas de estupro mais severamente que agressores e fere direitos reprodutivos.",
-    resultado: "REJEITADO",
+      "Burlar o debate nas comissões impede a discussão técnica sobre os riscos graves à saúde reprodutiva e a severa penalização imposta a meninas e mulheres vítimas de violência sexual.",
+    resultado: "URGÊNCIA APROVADA (EM TRAMITAÇÃO)",
     fonte: "https://www.camara.leg.br",
   },
   {
@@ -219,17 +219,17 @@ export const VOTACOES = [
     id: 14,
     tema: "TRABALHO",
     temaColor: "#D97706",
-    tipo: "PL 3.748/2023",
+    tipo: "PL 12/2024",
     ano: "2024",
-    titulo: "Regulamentação do Trabalho por Aplicativos",
+    titulo: "Debate da Regulamentação do Trabalho por Aplicativos",
     descricao:
-      "Define vínculo trabalhista para motoristas e entregadores de plataformas (Uber, iFood): renda mínima por hora, previdência e seguro de acidentes.",
+      "Proposta do Executivo para criar um pacote de direitos mínimos e previdenciários aos motoristas de aplicativos sem o vínculo tradicional da CLT.",
     proArgs:
-      "Proteção social e direitos mínimos para mais de 1,5 milhão de trabalhadores de plataforma.",
+      "Introduz proteção social, remuneração mínima por hora trabalhada e amparo contra acidentes.",
     conArgs:
-      "Encarece serviços e reduz a flexibilidade que muitos trabalhadores valorizam.",
-    resultado: "APROVADO",
-    fonte: "https://www.camara.leg.br/noticias/1078876",
+      "Pode inflacionar o custo final das corridas e reduzir a autonomia flexível do prestador.",
+    resultado: "EM TRAMITAÇÃO",
+    fonte: "https://www.camara.leg.br",
   },
 
   // ── EDUCAÇÃO ─────────────────────────────────────────────────────────────────
@@ -239,15 +239,15 @@ export const VOTACOES = [
     temaColor: "#00A550",
     tipo: "PL 3.179/2012",
     ano: "2022",
-    titulo: "Ensino Domiciliar (Homeschooling)",
+    titulo: "Regulamentação do Ensino Domiciliar (Homeschooling)",
     descricao:
-      "Regulamenta a educação domiciliar como alternativa ao ensino regular, com supervisão do Ministério da Educação.",
+      "Aprovada na Câmara dos Deputados em maio de 2022, a proposta autoriza a educação domiciliar como alternativa legal à escola regular, condicionando-a ao monitoramento e avaliação pelo Ministério da Educação.",
     proArgs:
-      "Liberdade das famílias na formação educacional dos filhos e alternativas pedagógicas.",
+      "Assegura a liberdade primordial das famílias em definir a metodologia pedagógica e moral da criação educacional de seus filhos.",
     conArgs:
-      "Reduz socialização infantil e dificulta a detecção de violência doméstica contra crianças.",
-    resultado: "APROVADO",
-    fonte: "https://www.camara.leg.br/noticias/877030",
+      "Compromete o direito à socialização plural na infância e retira o papel protetivo da escola na detecção de violências ou privações domésticas.",
+    resultado: "APROVADO NA CÂMARA",
+    fonte: "https://www.camara.leg.br",
   },
   {
     id: 16,
@@ -264,6 +264,22 @@ export const VOTACOES = [
       "Impacto nos orçamentos municipais sem contrapartida federal adequada.",
     resultado: "APROVADO",
     fonte: "https://www.camara.leg.br/noticias/922876",
+  },
+  {
+    id: 17, // Atribua o ID sequencial correto do seu arquivo
+    tema: "TRIBUTAÇÃO",
+    temaColor: "#002776",
+    tipo: "PEC 5/2023",
+    ano: "2024",
+    titulo: "Ampliação da Imunidade Tributária de Igrejas",
+    descricao:
+      "Proposta de Emenda à Constituição que estende a imunidade tributária de templos de qualquer culto, proibindo a cobrança de impostos sobre bens, serviços e patrimônios indiretamente ligados às entidades religiosas.",
+    proArgs:
+      "Garante a liberdade de culto e reconhece o papel social e assistencial crucial desempenhado pelas igrejas nas comunidades.",
+    conArgs:
+      "Reduz a arrecadação do Estado e abre brechas para privilégios fiscais e distorções na fiscalização de atividades não religiosas.",
+    resultado: "EM TRAMITAÇÃO",
+    fonte: "https://www.camara.leg.br",
   },
 ];
 
@@ -291,26 +307,26 @@ export const PARTIDOS = [
 ];
 
 // Votos por partido: 1=sim/favor, -1=não/contra, 0=dividido/ausente
-// Colunas na ordem dos ids 1-16
+// Colunas na ordem dos ids 1-17
 //                               1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
-//                              MT  LA  GA  GR  RT  OF  PF  SP  ST  VI  DJ  AB  CO  AP  HO  PP
+//                              MT  LA  PD  GR  RT  OF  PF  SP  ST  VI  DJ  AB  CO  AP  HO  PP
 export const VOTOS_PARTIDO: Record<string, number[]> = {
-  PSOL: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1],
-  PT: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1],
-  PCdoB: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1],
-  PV: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 0, 1],
-  REDE: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1],
-  PSB: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1],
-  PDT: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1],
-  MDB: [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0],
-  PSDB: [1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0],
-  Cidadania: [0, 0, 1, 0, 1, 1, 0, 0, 0, -1, 0, -1, 1, 1, 0, 0],
-  Solidariedade: [1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0],
-  UNIÃO: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, 0, 1, 0],
-  PP: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, -1, 1, 0],
-  Republicanos: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, 0, 0, 1, 0],
-  PL: [1, 1, 1, 1, 0, -1, 1, 1, -1, 1, 1, 1, -1, -1, 1, -1],
-  NOVO: [1, 1, 1, 1, 1, -1, 1, 1, -1, 1, 1, 0, -1, -1, 1, -1],
+  PSOL: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, -1],
+  PT: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, -1],
+  PCdoB: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, 0],
+  PV: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 0, 1, -1],
+  REDE: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, -1],
+  PSB: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1, 1],
+  PDT: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1, 1],
+  MDB: [1, 1, -1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+  PSDB: [1, 1, -1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
+  Cidadania: [0, 0, -1, 0, 1, 1, 0, 0, 0, -1, 0, -1, 1, 1, 0, 0, 1],
+  Solidariedade: [1, 1, -1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1],
+  UNIÃO: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, 0, 1, 0, 1],
+  PP: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, -1, 1, 0, 1],
+  Republicanos: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, 0, 0, 1, 0, 1],
+  PL: [1, 1, 1, 1, 0, -1, 1, 1, -1, 1, 1, 1, -1, -1, 1, -1, 1],
+  NOVO: [1, 1, 1, 1, 1, -1, 1, 1, -1, 1, 1, 0, -1, -1, 1, -1, 1],
 };
 
 export const TICKER_TEMAS = [

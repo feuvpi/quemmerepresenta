@@ -34,21 +34,21 @@ const VOTACOES_CURADAS = [
     casa: "camara",
     slug: "licenciamento-ambiental",
     tema: "meio_ambiente",
-    titulo: "Licenciamento Ambiental Flexibilizado",
-    subtitulo: '"PL da Devastação"',
+    titulo: "Lei Geral do Licenciamento Ambiental",
+    subtitulo: "PL 2159/2021 — Lei nº 15.190/2025",
     descricao:
-      "Flexibiliza as regras de licenciamento ambiental, criando novas categorias que dispensam estudos técnicos completos mesmo para obras de grande impacto ambiental.",
+      "Estabelece a nova Lei Geral do Licenciamento Ambiental do país, criando modalidades simplificadas como a Licença por Adesão e Compromisso (LAC) e flexibilizando exigências técnicas.",
     contexto:
-      "Aprovado pela Câmara em julho de 2025 por 267×116. Considerado o maior retrocesso ambiental em 40 anos por entidades ambientalistas. Aguarda sanção ou veto do presidente.",
+      "Tornou-se a Lei nº 15.190/2025. Sancionada com vetos pelo poder Executivo em agosto de 2025, a lei teve 52 de seus vetos derrubados pelo Congresso Nacional em novembro de 2025, restaurando os pontos de ampla flexibilização e dispensa de amparo consultivo vinculante de órgãos ambientais.",
     posicao_favor:
-      "Mais agilidade para obras de infraestrutura e desenvolvimento econômico",
+      "Mais agilidade para obras de infraestrutura, redução da burocracia e segurança jurídica para o setor produtivo",
     posicao_contra:
-      "Proteção do meio ambiente e comunidades afetadas por grandes projetos",
+      "Enfraquecimento da proteção a biomas sensíveis, redução do rigor de estudos de impacto e limitação da consulta a órgãos de proteção indígena",
     aprovada: true,
     data: "2025-07-17",
     fontes: [
       "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2236765",
-      "https://www.socioambiental.org/noticias-socioambientais/camara-aprova-pl-da-devastacao-o-maior-retrocesso-ambiental-do-pais-em",
+      "https://www12.senado.leg.br",
     ],
     pl: "PL 2159/2021",
   },
@@ -139,26 +139,24 @@ const VOTACOES_CURADAS = [
 
   // ECONOMIA E IMPOSTOS
   {
-    id: "camara-2298576-69",
+    id: "camara-2298576-69", // Certifique-se de usar o ID correto da votação da PEC 45/2024 na API
     casa: "camara",
-    slug: "reforma-tributaria",
+    slug: "pacote-fiscal",
     tema: "economia",
-    titulo: "Reforma Tributária",
-    subtitulo: "PEC 45/2019 — IVA Dual (CBS + IBS)",
+    titulo: "PEC do Corte de Gastos e Supersalários",
+    subtitulo: "PEC 45/2024 — Emenda Constitucional 135",
     descricao:
-      "Unifica cinco tributos federais e estaduais (ICMS, ISS, PIS, Cofins, IPI) em dois novos impostos sobre consumo. A maior reforma tributária em 35 anos.",
+      "Limita os supersalários no serviço público ao teto constitucional de R$ 44 mil, altera regras do abono salarial (PIS/Pasep) e cria travas para cumprimento do arcabouço fiscal.",
     contexto:
-      "Aprovada em 2023 após décadas de tentativas frustradas. Prevê transição até 2033. Especialistas divergem sobre impacto nos preços e nas regiões mais pobres.",
+      "Aprovada em dois turnos na Câmara e promulgada como EC 135. Teve forte resistência da oposição e do PSOL devido às travas em benefícios sociais, mas contou com ampla articulação da base governista e do centro.",
     posicao_favor:
-      'Simplificação do sistema tributário e redução do "custo Brasil"',
+      "Responsabilidade fiscal, controle da dívida e fim de privilégios no topo do funcionalismo",
     posicao_contra:
-      "Risco de aumento de carga tributária sobre consumo e alimentos",
+      "Risco de compressão de despesas sociais e impacto em benefícios da população vulnerável",
     aprovada: true,
-    data: "2023-07-06",
-    fontes: [
-      "https://www.camara.leg.br/noticias/982064-camara-aprova-reforma-tributaria",
-    ],
-    pl: "PEC 45/2019",
+    data: "2024-12-19", // Data da aprovação final/promulgação
+    fontes: ["https://www.camara.leg.br"],
+    pl: "PEC 45/2024",
   },
   {
     id: "camara-2438459-148",
@@ -401,21 +399,19 @@ const VOTACOES_CURADAS = [
     casa: "camara",
     slug: "dosimetria-8-janeiro",
     tema: "democracia",
-    titulo: "Redução de Penas dos Condenados pelo 8 de Janeiro",
+    titulo: "Redução de Penas / Critérios de Dosimetria",
     subtitulo: '"PL da Dosimetria" — PL 2162/2023',
     descricao:
-      "Altera as regras de cálculo de penas para condenados por crimes em manifestações políticas, podendo beneficiar participantes dos ataques de 8 de janeiro de 2023.",
+      "Altera as regras para o cálculo do concurso de crimes na dosimetria penal, modificando a forma como penas somadas são computadas.",
     contexto:
-      "Aprovado pela Câmara (291×148) e pelo Senado (48×25) em dezembro de 2025. Vetado integralmente pelo presidente Lula. Congresso pode derrubar o veto.",
+      "Aprovado pelo Congresso no fim de 2025 e vetado integralmente pela Presidência da República em janeiro de 2026. Em sessão conjunta realizada pelo parlamento, o veto presidencial foi derrubado e a proposta virou lei, gerando intensos debates sobre seu impacto nas condenações dos atos de 8 de janeiro.",
     posicao_favor:
-      "Proporcionalidade das penas e revisão de julgamentos considerados excessivos",
+      "Garantia da proporcionalidade jurídica e correção de distorções punitivas excessivas nas condenações",
     posicao_contra:
-      "Impunidade para quem atentou contra a democracia e as instituições",
+      "Enfraquecimento do caráter punitivo do Estado e risco de abrir brechas para a revisão de penas de crimes contra o Estado Democrático",
     aprovada: true,
     data: "2025-12-10",
-    fontes: [
-      "https://www.gazetadopovo.com.br/republica/como-os-deputados-votaram-nas-pautas-que-tensionaram-os-poderes-em-2025/",
-    ],
+    fontes: ["https://www12.senado.leg.br"],
     pl: "PL 2162/2023",
   },
   {
