@@ -251,22 +251,6 @@ export const VOTACOES = [
   },
   {
     id: 16,
-    tema: "EDUCAÇÃO",
-    temaColor: "#00A550",
-    tipo: "PL 2.061/2022",
-    ano: "2022",
-    titulo: "Piso Nacional dos Professores com Aumento Real",
-    descricao:
-      "Garante reajuste anual do piso salarial dos professores da educação básica pública acima da inflação, vinculado ao crescimento do PIB.",
-    proArgs:
-      "Valorização do magistério e atração de profissionais qualificados para a educação pública.",
-    conArgs:
-      "Impacto nos orçamentos municipais sem contrapartida federal adequada.",
-    resultado: "APROVADO",
-    fonte: "https://www.camara.leg.br/noticias/922876",
-  },
-  {
-    id: 17, // Atribua o ID sequencial correto do seu arquivo
     tema: "TRIBUTAÇÃO",
     temaColor: "#002776",
     tipo: "PEC 5/2023",
@@ -279,7 +263,8 @@ export const VOTACOES = [
     conArgs:
       "Reduz a arrecadação do Estado e abre brechas para privilégios fiscais e distorções na fiscalização de atividades não religiosas.",
     resultado: "EM TRAMITAÇÃO",
-    fonte: "https://www.camara.leg.br",
+    fonte:
+      "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2351506",
   },
 ];
 
@@ -311,22 +296,22 @@ export const PARTIDOS = [
 //                               1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16
 //                              MT  LA  PD  GR  RT  OF  PF  SP  ST  VI  DJ  AB  CO  AP  HO  PP
 export const VOTOS_PARTIDO: Record<string, number[]> = {
-  PSOL: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, -1],
-  PT: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, -1],
-  PCdoB: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, 0],
-  PV: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 0, 1, -1],
-  REDE: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 1, -1],
-  PSB: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1, 1],
-  PDT: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1, 1],
-  MDB: [1, 1, -1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-  PSDB: [1, 1, -1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1],
-  Cidadania: [0, 0, -1, 0, 1, 1, 0, 0, 0, -1, 0, -1, 1, 1, 0, 0, 1],
-  Solidariedade: [1, 1, -1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 1],
-  UNIÃO: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, 0, 1, 0, 1],
-  PP: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, -1, 1, 0, 1],
-  Republicanos: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, 0, 0, 1, 0, 1],
-  PL: [1, 1, 1, 1, 0, -1, 1, 1, -1, 1, 1, 1, -1, -1, 1, -1, 1],
-  NOVO: [1, 1, 1, 1, 1, -1, 1, 1, -1, 1, 1, 0, -1, -1, 1, -1, 1],
+  PSOL: [-1, -1, -1, -1, -1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, -1],
+  PT: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, -1],
+  PCdoB: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, 0],
+  PV: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, 0, -1],
+  REDE: [-1, -1, -1, -1, 1, 1, -1, -1, 1, -1, -1, -1, 1, 1, -1, -1],
+  PSB: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1],
+  PDT: [-1, -1, -1, -1, 1, 1, 0, -1, 0, -1, -1, -1, 1, 1, 0, 1],
+  MDB: [1, 1, -1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+  PSDB: [1, 1, -1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1],
+  Cidadania: [0, 0, -1, 0, 1, 1, 0, 0, 0, -1, 0, -1, 1, 1, 0, 1],
+  Solidariedade: [1, 1, -1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1],
+  UNIÃO: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, 0, 1, 1],
+  PP: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, -1, -1, 1, 1],
+  Republicanos: [1, 1, 1, 1, 1, 0, 1, 1, -1, 1, 1, 1, 0, 0, 1, 1],
+  PL: [1, 1, 1, 1, 0, -1, 1, 1, -1, 1, 1, 1, -1, -1, 1, 1],
+  NOVO: [1, 1, 1, 1, 1, -1, 1, 1, -1, 1, 1, 0, -1, -1, 1, 1],
 };
 
 export const TICKER_TEMAS = [
