@@ -137,8 +137,8 @@
                 <p class="hero-body">
                     Exerça a sua democracia votando em <strong
                         >partidos que representam o que você acredita</strong
-                    > — e não no que prometem. Comparamos o seu voto com os votos
-                    reais de cada bancada no Congresso, sem opiniões nossas no meio.
+                    > — e não no que prometem. Compare o seu voto com os votos reais
+                    de cada bancada no Congresso.
                 </p>
 
                 <div class="hero-ctas">
@@ -357,7 +357,13 @@
         font-size: clamp(2.8rem, 6.5vw, 5.8rem);
         line-height: 1;
         letter-spacing: -0.02em;
-        color: #ffd100;
+        color: #ffd100; /* Mantém o amarelo ouro original no texto */
+
+        /* Novas propriedades para o fundo verde */
+        background-color: #009c3b; /* Verde oficial da bandeira */
+        padding: 0.2rem 0.8rem; /* Espaçamento interno (ajuste conforme necessário) */
+        border-radius: 4px; /* Deixa os cantos do fundo levemente arredondados */
+        display: inline-block; /* Garante que o fundo envolva apenas o texto, e não a linha toda */
     }
 
     .hero-body {
@@ -636,7 +642,7 @@
             padding: 5rem 1.5rem 3rem;
             gap: 2.5rem;
         }
-        .hero-right {
+        .hero-left {
             order: -1;
         }
         .stats-card {
